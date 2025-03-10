@@ -1,0 +1,54 @@
+*{
+    
+
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    padding: 5px;
+    margin: 5px;
+
+
+    #webname {
+        background-color: #1ad4cb;
+    }
+
+    .nav a
+    {
+        text-decoration: none;
+        color: red;
+        margin-right: 15px;
+    }
+
+    #tableheader
+    {
+        padding: 12px;
+        background-color: aquamarine;
+        color: purple;
+        width: fit-content;
+    }
+    #tableheader2
+    {
+        padding: 12px;
+        background-color: aquamarine;
+        color: purple;
+        width: fit-content;
+    }
+    
+
+    tr:nth-child(even)
+    {
+        background-color: grey;
+    }
+
+    form *
+    {
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+    
+    
+}
